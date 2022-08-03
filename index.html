@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Calc Media</title>
+</head>
+<body>
+    <div class="container-principal">
+
+        <header>
+            <h1>Calc Média</h1>
+        </header>
+        <main>
+            <div class="container-conteudo">
+
+                <section>
+                    <div>
+                        <h2>Como usar nosso app</h2>
+                        <p>Coloque a média mínima e suas notas nos campos indicados e clique no botão calcular para obter a media <br>
+                    </div>
+                </section>
+        
+                <section>
+                    <div>
+                        <form class="formulario">
+                        <label for="media-alvo"> Média mínima </label>
+                            <input type="number" min="0"  id="media-alvo">
+                            <input type='number'min="0" max="10" required id="nota1" >
+                            <input type='number'min="0" max="10" required id="nota2" >
+                            <input type='number'min="0" max="10" required id="nota3" >
+                            <input type='number'min="0" max="10" required id="nota4" >
+                            <input type='reset' class='limpar' value='Limpar'>
+                            
+                            
+                           
+                        </form>
+                        
+                        <div class="botão-resultado">
+                            <button type="submit" class="calcula">Calcular</button>
+                            
+                            <h3>Resultado</h3>
+                            
+                            <p class="text-result">Veja aqui seu resultado !</p>
+                          
+                            
+
+                        </div>
+                        
+                    </div>
+        
+                </section>
+
+            </div>
+            
+    
+        </main>
+        <footer>
+            <ul>
+                <il>
+                    <a href="#">Melhores suas notas com essa playlist!</a>
+                </il>
+                <il>
+                    <a href="#">Os melhores professores você encontra aqui!</a>
+                </il>
+                <il>
+                    <a href="#">Mais informações</a>
+                </il>
+            </ul>
+        </footer>
+
+    </div>
+    
+   <script src="assets/JS/script.js"></script>
+    
+</body>
+</html>
